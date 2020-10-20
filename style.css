@@ -7,15 +7,17 @@ body {
     padding-bottom: 3rem;
     color: #5a5a5a;
   }
+
+  
   
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   
   /* Carousel base class */
-  .carousel {
+  /*.carousel {
     margin-bottom: 4rem;
-  }
+  }*/
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
     bottom: 3rem;
@@ -24,14 +26,14 @@ body {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 50rem;
   }
-  .carousel-item > img {
+ .carousel-item > img {
     position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+ 
   }
 
   /* RESPONSIVE CSS
@@ -44,12 +46,40 @@ body {
     font-size: 1.25rem;
     line-height: 1.4;
   }
-
+}
 
 /* MON CSS PERSO*/
 
+.btn-primary {
+  background-color: #D4A26B;
+  color: #F7F7F7;
+  border-color: #F7F7F7;
+  
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color:  #F7F7F7;
+  background-color: #B12120;
+  border-color:  #F7F7F7; /*set the color you want here*/
+  
+}
+
+.btn-outline-secondary {
+background-color: #B12120;
+color: #F7F7F7;
+border-color: #F7F7F7;
+
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active, .btn-outline-secondary.active, .open>.dropdown-toggle.btn-outline-secondary {
+color:  #F7F7F7;
+background-color:  #3B724E;
+border-color:  #F7F7F7; /*set the color you want here*/
+
+}
+
 .logo {
-  height: 12vh;
+  max-width: 25%;
 
 }
 
@@ -57,6 +87,105 @@ body {
   background-color: #3B724E;
 }
 
-.carousel-inner img {
-  width: 50%;
+
+
+.nav-link {
+  color: white!important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
+
+.nav-link:hover {
+  color:#D4A26B!important;
+  
+  
+}
+
+
+
+.navbar .container {
+  width: 100%;
+}
+
+.separateur {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer {
+  background-color: #3B724E;
+  
+}
+
+.footer-2 {
+  background-color: #F7F7F7;
+  width: 100%;
+
+}
+
+.footer p {
+  color: white;
+}
+
+.footer-2 p {
+  color: #5a5a5a;
+}
+
+.jumbotron {
+  background: url("Images/pexels-quang-nguyen-vinh-2884905.jpg") no-repeat center center fixed;
+  background-size: 100%;
+  height: 70vh;
+}
+
+.titre {
+  color: #D4A26B;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.texte-sur-image {
+  color: #f5f5f5;
+
+}
+
+
+@media (max-width: 979px) {
+  #myCarousel.carousel img {
+  width: 100%;
+  height: 100%;
+
+  }
+  .carousel-item {
+    height: 40rem;
+  }
+  }
+
+
+  @media (max-width: 470px) {
+  #myCarousel.carousel img {
+  max-width:300%;
+  width:150%;
+  min-height: 100%;
+  }
+  .carousel-item {
+    height: 30rem;
+  }
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .carousel-caption h1 {
+    margin-bottom: 1.25rem;
+    font-size: 1.50rem;
+    line-height: 1.4;
+  }
+  h3.texte-sur-image {
+    font-size: x-large ;
+    font-weight: bolder;
+    
+  
+  }
+  }
+
+
