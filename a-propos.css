@@ -148,14 +148,20 @@ border-color:  #F7F7F7; /*set the color you want here*/
 
 }
 
-p.texte-sur-image {
-  font-size: large;
-  font-weight: bold;
+main {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  
+}
+
+.image {
+    width: 60%;
+
 }
 
 footer .fa-3x {
-  font-size: 3em;
-  color: #D4A26B;
+    font-size: 3em;
+    color: #D4A26B;
 }
 
 
@@ -190,26 +196,44 @@ footer .fa-3x {
     font-size: 1.50rem;
     line-height: 1.4;
   }
+
+  .image {
+      width: 100%;
+  }
   }
 
-  @media (max-width: 580px) {
-    .jumbotron .texte-sur-image {
-        margin-top: 20%;
-        height: 8%;
-      
-    }
+@media (min-width: 979px) {
+    .jumbotron {
+    margin-top: 4%;
+  
+}
+    
+}
+
+@media (max-width: 580px) {
 
     .jumbotron {
         background-size: 220%;
     }
 
     h3.texte-sur-image {
-      font-size: xx-large ;
-      font-weight: bolder;
+        font-size: xx-large ;
+        font-weight: bolder;
+        
       
-    
     }
 
 }
+
+@media (max-width: 600px) {
+    main {
+        margin-top: 25%;
+      
+    }
+    }
+
+
+
+
 
 
